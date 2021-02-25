@@ -89,6 +89,7 @@
 
 body {
   font-family: $font-family-niramit-regular;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   padding: 0;
@@ -128,6 +129,7 @@ button {
 
 a {
   font-family: $font-family-niramit-500;
+  font-weight: 500;
   font-size: $font-size-md;
   line-height: 24px;
   color: $blue-color;
@@ -135,6 +137,7 @@ a {
 
 h1 {
   font-family: $font-family-niramit-bold;
+  font-weight: 700;
   font-size: $font-size-xl;
   line-height: 40px;
   color: $black-color-28;
@@ -142,6 +145,7 @@ h1 {
 
 h2 {
   font-family: $font-family-niramit-600;
+  font-weight: 600;
   font-size: $font-size-lg;
   line-height: 28px;
   color: $black-color-28;
@@ -149,6 +153,7 @@ h2 {
 
 h3 {
   font-family: $font-family-niramit-600;
+  font-weight: 600;
   font-size: $font-size-md;
   line-height: 18px;
   color: $black-color-68;
@@ -156,6 +161,7 @@ h3 {
 
 p {
   font-family: $font-family-niramit-300;
+  font-weight: 300;
   font-size: $font-size-sm;
   line-height: 24px;
   color: $black-color-68;
@@ -185,12 +191,16 @@ p {
   margin-bottom: 208px!important;
 }
 
-.pb-143 {
-  padding-bottom: 143px!important;
+.pb-127 {
+  padding-bottom: 127px!important;
 }
 
 .pb-88 {
   padding-bottom: 88px!important;
+}
+
+.mt-48 {
+  margin-top: 48px!important;
 }
 
 .mb-83 {
