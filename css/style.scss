@@ -1,0 +1,26 @@
+@import "../fontawesome-free-5.15.1-web/css/all.css";
+@import url("//code.jquery.com/ui/1.12.1/themes/base/theme.css");
+@import "bootstrap.min.css";
+@import "variables";
+@import "backgrounds";
+@import "texts";
+@import "typography";
+@import "buttons";
+
+.img-border {
+  border-bottom: 2px solid #CAD5E0;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100%;
+}
+
+.circle-img {
+  width: 41px;
+  height: 41px;
+  background: #F0F5F9;
+  border-radius: 50px;
+  position: absolute;
+  top: -100px;
+  right: 30px;
+}

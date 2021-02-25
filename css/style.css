@@ -1,0 +1,244 @@
+@import "../fontawesome-free-5.15.1-web/css/all.css";
+@import url("//code.jquery.com/ui/1.12.1/themes/base/theme.css");
+@import "bootstrap.min.css";
+.bg-blue {
+  background-color: #2A6FDB !important;
+}
+
+.bg-light-blue {
+  background-color: #D4E2F8 !important;
+}
+
+.bg-light {
+  background-color: #F8FAFC !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-primary {
+  color: #2A6FDB !important;
+}
+
+.text-secondary {
+  color: #61758A !important;
+}
+
+@font-face {
+  font-family: "Niramit-Light";
+  src: url("../fonts/Niramit-Light.eot");
+  src: url("../fonts/Niramit-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Niramit-Light.woff2") format("woff2"), url("../fonts/Niramit-Light.woff") format("woff"), url("../fonts/Niramit-Light.ttf") format("truetype"), url("../fonts/Niramit-Light.svg#Niramit-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Niramit-Regular";
+  src: url("../fonts/Niramit-Regular.eot");
+  src: url("../fonts/Niramit-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Niramit-Regular.woff2") format("woff2"), url("../fonts/Niramit-Regular.woff") format("woff"), url("../fonts/Niramit-Regular.ttf") format("truetype"), url("../fonts/Niramit-Regular.svg#Niramit-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Niramit-Medium";
+  src: url("../fonts/Niramit-Medium.eot");
+  src: url("../fonts/Niramit-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Niramit-Medium.woff2") format("woff2"), url("../fonts/Niramit-Medium.woff") format("woff"), url("../fonts/Niramit-Medium.ttf") format("truetype"), url("../fonts/Niramit-Medium.svg#Niramit-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Niramit-Semibold";
+  src: url("../fonts/Niramit-SemiBold.eot");
+  src: url("../fonts/Niramit-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Niramit-SemiBold.woff2") format("woff2"), url("../fonts/Niramit-SemiBold.woff") format("woff"), url("../fonts/Niramit-SemiBold.ttf") format("truetype"), url("../fonts/Niramit-SemiBold.svg#Niramit-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Niramit-Bold";
+  src: url("../fonts/Niramit-Bold.eot");
+  src: url("../fonts/Niramit-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Niramit-Bold.woff2") format("woff2"), url("../fonts/Niramit-Bold.woff") format("woff"), url("../fonts/Niramit-Bold.ttf") format("truetype"), url("../fonts/Niramit-Bold.svg#Niramit-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.font-size-xxs {
+  font-size: 12px;
+}
+
+.font-size-xs {
+  font-size: 14px;
+}
+
+.font-size-sm {
+  font-size: 16px;
+}
+
+.font-size-md {
+  font-size: 18px;
+}
+
+.font-size-lg {
+  font-size: 24px;
+}
+
+.font-size-xl {
+  font-size: 40px;
+}
+
+body {
+  font-family: "Niramit-Regular";
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+a {
+  font-family: "Niramit-Medium";
+  font-size: 18px;
+  line-height: 24px;
+  color: #2A6FDB;
+}
+
+h1 {
+  font-family: "Niramit-Bold";
+  font-size: 40px;
+  line-height: 40px;
+  color: #1C2A3A;
+}
+
+h2 {
+  font-family: "Niramit-Semibold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #1C2A3A;
+}
+
+h3 {
+  font-family: "Niramit-Semibold";
+  font-size: 18px;
+  line-height: 18px;
+  color: #445668;
+}
+
+p {
+  font-family: "Niramit-Light";
+  font-size: 16px;
+  line-height: 24px;
+  color: #445668;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.mt-172 {
+  margin-top: 172px !important;
+}
+
+.mt-350 {
+  margin-top: 350px !important;
+}
+
+.mb-350 {
+  margin-bottom: 350px !important;
+}
+
+.pb-143 {
+  padding-bottom: 143px !important;
+}
+
+.pb-88 {
+  padding-bottom: 88px !important;
+}
+
+.mb-83 {
+  margin-bottom: 83px !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn {
+  font-family: "Niramit-Semibold";
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  text-align: center;
+  padding: 13px 24px;
+}
+
+.btn-primary {
+  background-color: #2A6FDB;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #1E55BC;
+}
+
+.img-border {
+  border-bottom: 2px solid #CAD5E0;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100%;
+}
+
+.circle-img {
+  width: 41px;
+  height: 41px;
+  background: #F0F5F9;
+  border-radius: 50px;
+  position: absolute;
+  top: -100px;
+  right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

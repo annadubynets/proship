@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Niramit-Light';
+  src: url('../fonts/Niramit-Light.eot');
+  src: url('../fonts/Niramit-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Niramit-Light.woff2') format('woff2'),
+  url('../fonts/Niramit-Light.woff') format('woff'),
+  url('../fonts/Niramit-Light.ttf') format('truetype'),
+  url('../fonts/Niramit-Light.svg#Niramit-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niramit-Regular';
+  src: url('../fonts/Niramit-Regular.eot');
+  src: url('../fonts/Niramit-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Niramit-Regular.woff2') format('woff2'),
+  url('../fonts/Niramit-Regular.woff') format('woff'),
+  url('../fonts/Niramit-Regular.ttf') format('truetype'),
+  url('../fonts/Niramit-Regular.svg#Niramit-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niramit-Medium';
+  src: url('../fonts/Niramit-Medium.eot');
+  src: url('../fonts/Niramit-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Niramit-Medium.woff2') format('woff2'),
+  url('../fonts/Niramit-Medium.woff') format('woff'),
+  url('../fonts/Niramit-Medium.ttf') format('truetype'),
+  url('../fonts/Niramit-Medium.svg#Niramit-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niramit-Semibold';
+  src: url('../fonts/Niramit-SemiBold.eot');
+  src: url('../fonts/Niramit-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Niramit-SemiBold.woff2') format('woff2'),
+  url('../fonts/Niramit-SemiBold.woff') format('woff'),
+  url('../fonts/Niramit-SemiBold.ttf') format('truetype'),
+  url('../fonts/Niramit-SemiBold.svg#Niramit-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niramit-Bold';
+  src: url('../fonts/Niramit-Bold.eot');
+  src: url('../fonts/Niramit-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Niramit-Bold.woff2') format('woff2'),
+  url('../fonts/Niramit-Bold.woff') format('woff'),
+  url('../fonts/Niramit-Bold.ttf') format('truetype'),
+  url('../fonts/Niramit-Bold.svg#Niramit-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-size-xxs {
+  font-size: $font-size-xxs;
+}
+
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.font-size-md {
+  font-size: $font-size-md;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg;
+}
+
+.font-size-xl {
+  font-size: $font-size-xl;
+}
+
+body {
+  font-family: $font-family-niramit-regular;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+a {
+  font-family: $font-family-niramit-500;
+  font-size: $font-size-md;
+  line-height: 24px;
+  color: $blue-color;
+}
+
+h1 {
+  font-family: $font-family-niramit-bold;
+  font-size: $font-size-xl;
+  line-height: 40px;
+  color: $black-color-28;
+}
+
+h2 {
+  font-family: $font-family-niramit-600;
+  font-size: $font-size-lg;
+  line-height: 28px;
+  color: $black-color-28;
+}
+
+h3 {
+  font-family: $font-family-niramit-600;
+  font-size: $font-size-md;
+  line-height: 18px;
+  color: $black-color-68;
+}
+
+p {
+  font-family: $font-family-niramit-300;
+  font-size: $font-size-sm;
+  line-height: 24px;
+  color: $black-color-68;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.mt-172 {
+  margin-top: 172px!important;
+}
+
+.mt-350 {
+  margin-top: 350px!important;
+}
+
+.mb-350 {
+  margin-bottom: 350px!important;
+}
+
+.pb-143 {
+  padding-bottom: 143px!important;
+}
+
+.pb-88 {
+  padding-bottom: 88px!important;
+}
+
+.mb-83 {
+  margin-bottom: 83px!important;
+}
+
+.font-weight-500 {
+  font-weight: 500!important;
+}
+
+.font-weight-600 {
+  font-weight: 600!important;
+}
+

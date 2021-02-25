@@ -1,0 +1,26 @@
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  text-align: center;
+  padding: 22px 41px 22px 28px;
+}
+
+.btn-warning {
+  background-color: #ffc400;
+  border: none;
+  color: #0e1a36;
+}
+.btn-warning:hover {
+  background-color: #FFCC25;
+  box-shadow: 0 0 8px rgba(255, 212, 70, 0.9);
+}
+
+/*# sourceMappingURL=buttons.css.map */

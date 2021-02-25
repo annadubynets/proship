@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acc70815-d64c-4528-a42c-70ace25f4462" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oyK6JENy6nxrLH6PlXKjVfXaz2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acc70815-d64c-4528-a42c-70ace25f4462" name="Default Changelist" comment="" />
+      <created>1614253214516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614253214516</updated>
+      <workItem from="1614253215890" duration="214000" />
+      <workItem from="1614253446050" duration="27000" />
+      <workItem from="1614253502212" duration="6000" />
+      <workItem from="1614253522660" duration="4000" />
+      <workItem from="1614253536794" duration="4000" />
+      <workItem from="1614253554954" duration="19000" />
+      <workItem from="1614253582997" duration="64000" />
+      <workItem from="1614253656931" duration="8000" />
+      <workItem from="1614253682245" duration="9531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="255" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614258066208">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="474" y="255" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1614258066208" />
+    <state x="379" y="227" key="EditFileWatcherDialog" timestamp="1614253280838">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="379" y="227" key="EditFileWatcherDialog/0.23.1440.839@0.23.1440.839" timestamp="1614253280838" />
+  </component>
+</project>
