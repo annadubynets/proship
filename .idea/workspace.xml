@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc70815-d64c-4528-a42c-70ace25f4462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Niramit-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracking.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +62,7 @@
       <workItem from="1614253554954" duration="19000" />
       <workItem from="1614253582997" duration="64000" />
       <workItem from="1614253656931" duration="8000" />
-      <workItem from="1614253682245" duration="9531000" />
+      <workItem from="1614253682245" duration="10138000" />
     </task>
     <servers />
   </component>
