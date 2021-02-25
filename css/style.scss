@@ -25,6 +25,9 @@
   right: 30px;
 }
 
-.border-bottom-img {
-  border-bottom: 6px solid $blue-color!important;
+.progress {
+  height: 6px;
+}
+.progress-bar {
+  background-color: $blue-color!important;
 }

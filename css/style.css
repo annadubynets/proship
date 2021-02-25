@@ -179,6 +179,14 @@ p {
   margin-bottom: 350px !important;
 }
 
+.mt-208 {
+  margin-top: 208px !important;
+}
+
+.mb-208 {
+  margin-bottom: 208px !important;
+}
+
 .pb-143 {
   padding-bottom: 143px !important;
 }
@@ -241,8 +249,12 @@ p {
   right: 30px;
 }
 
-.border-bottom-img {
-  border-bottom: 6px solid #2A6FDB !important;
+.progress {
+  height: 6px;
+}
+
+.progress-bar {
+  background-color: #2A6FDB !important;
 }
 
 /*# sourceMappingURL=style.css.map */
