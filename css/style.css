@@ -241,4 +241,8 @@ p {
   right: 30px;
 }
 
+.border-bottom-img {
+  border-bottom: 6px solid #2A6FDB !important;
+}
+
 /*# sourceMappingURL=style.css.map */
