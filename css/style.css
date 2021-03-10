@@ -5,10 +5,6 @@
   background-color: #2A6FDB !important;
 }
 
-.bg-light-blue {
-  background-color: #D4E2F8 !important;
-}
-
 .bg-light {
   background-color: #F8FAFC !important;
 }
@@ -308,7 +304,7 @@ p {
   border: none;
 }
 
-.timeline {
+.timeline-container .timeline {
   margin: 48px 0;
   display: inline-block;
   letter-spacing: 0.2px;
@@ -318,42 +314,40 @@ p {
   list-style: none;
   text-align: left;
 }
-
-.timeline h4 {
+.timeline-container .timeline h4 {
   font-family: "Niramit-Semibold";
   font-size: 14px;
   line-height: 16px;
   color: #304254;
 }
-
-.timeline p {
+.timeline-container .timeline p {
   font-family: "Niramit-Medium";
   font-size: 12px;
   line-height: 16px;
   color: #91A4B7;
 }
-
-.timeline .event .timestamp {
+.timeline-container .timeline .event .timestamp {
   border-right: 4px solid #CAD5E0;
 }
-
-.timeline .event .timestamp:before {
+.timeline-container .timeline .event .timestamp:before {
   content: "";
+  display: block;
   right: -12px;
   height: 20px;
   width: 20px;
   top: -4px;
-  display: block;
   position: absolute;
   background-color: white;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 -3.8147e-06 10 -3.8147e-06C15.523 -3.8147e-06 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z' fill='%23CAD5E0'/%3E%3C/svg%3E%0A");
 }
-
-.timeline .event.completed .timestamp {
+.timeline-container .timeline .event.completed .timestamp {
   border-right: 4px solid #2A6FDB;
 }
-
-.timeline .event.completed .timestamp:before {
+.timeline-container .timeline .event.completed.next-in-progress .timestamp {
+  border-right: 4px solid;
+  border-image: linear-gradient(to bottom, #2A6FDB, #CAD5E0) 1 100%;
+}
+.timeline-container .timeline .event.completed .timestamp:before {
   content: "";
   right: -12px;
   height: 20px;
@@ -364,9 +358,31 @@ p {
   background-color: white;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z' fill='%232A6FDB'/%3E%3C/svg%3E%0A");
 }
-
-.timeline .event:last-of-type .timestamp {
+.timeline-container .timeline .event:last-of-type .timestamp {
   border-right: 4px solid transparent;
+}
+.timeline-container:after {
+  content: "";
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 0%);
+  transform: rotate(-180deg);
+  position: absolute;
+}
+
+.timeline-container[data-progress="25%"]:after {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.timeline-container[data-progress="50%"]:after {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 75%);
+}
+
+.timeline-container[data-progress="75%"]:after {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
 }
 
 /*# sourceMappingURL=style.css.map */
