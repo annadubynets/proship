@@ -21,8 +21,24 @@
   color: #2A6FDB !important;
 }
 
+.text-info {
+  color: #91A4B7 !important;
+}
+
 .text-secondary {
   color: #61758A !important;
+}
+
+.text-dark {
+  color: #445668 !important;
+}
+
+.text-light {
+  color: #E1E8F0 !important;
+}
+
+.text-light-248 {
+  color: #F8FAFC !important;
 }
 
 @font-face {
@@ -66,32 +82,35 @@
   font-display: swap;
 }
 .font-size-xxs {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .font-size-xs {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .font-size-sm {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .font-size-md {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .font-size-lg {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .font-size-xl {
+  font-size: 24px;
+}
+
+.font-size-xxl {
   font-size: 40px;
 }
 
 body {
   font-family: "Niramit-Regular";
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   padding: 0;
@@ -122,7 +141,7 @@ a:hover {
 i,
 span,
 a {
-  display: block;
+  display: inline;
 }
 
 button {
@@ -131,15 +150,13 @@ button {
 
 a {
   font-family: "Niramit-Medium";
-  font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: #2A6FDB;
 }
 
 h1 {
   font-family: "Niramit-Bold";
-  font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   color: #1C2A3A;
@@ -147,7 +164,6 @@ h1 {
 
 h2 {
   font-family: "Niramit-Semibold";
-  font-weight: 600;
   font-size: 24px;
   line-height: 28px;
   color: #1C2A3A;
@@ -155,7 +171,6 @@ h2 {
 
 h3 {
   font-family: "Niramit-Semibold";
-  font-weight: 600;
   font-size: 18px;
   line-height: 18px;
   color: #445668;
@@ -163,7 +178,6 @@ h3 {
 
 p {
   font-family: "Niramit-Light";
-  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: #445668;
@@ -191,6 +205,10 @@ p {
 
 .mb-208 {
   margin-bottom: 208px !important;
+}
+
+.mt-52 {
+  margin-top: 52px !important;
 }
 
 .pb-127 {
@@ -236,9 +254,22 @@ p {
   border: none;
   border-radius: 5px;
   color: #ffffff;
+  transition: 0.3s;
 }
 .btn-primary:hover {
   background-color: #1E55BC;
+}
+
+.btn-outline-primary {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #2A6FDB;
+  transition: 0.3s;
+}
+.btn-outline-primary:hover {
+  background-color: #EAF1FC !important;
+  color: #2A6FDB !important;
 }
 
 .img-border {
@@ -261,10 +292,82 @@ p {
 
 .progress {
   height: 6px;
+  background: #CAD5E0;
 }
 
 .progress-bar {
-  background-color: #2A6FDB !important;
+  background-color: #1E55BC !important;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px -15px 99px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+
+.timeline {
+  margin: 48px 0;
+  padding: 0;
+  display: inline-block;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 14px;
+  font-size: 14px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline h4 {
+  font-family: "Niramit-Semibold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #304254;
+}
+
+.timeline p {
+  font-family: "Niramit-Medium";
+  font-size: 12px;
+  line-height: 16px;
+  color: #91A4B7;
+}
+
+.timeline .event .timestamp {
+  border-right: 4px solid #CAD5E0;
+}
+
+.timeline .event .timestamp:before {
+  content: "";
+  right: -12px;
+  height: 20px;
+  width: 20px;
+  top: -4px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 -3.8147e-06 10 -3.8147e-06C15.523 -3.8147e-06 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z' fill='%23CAD5E0'/%3E%3C/svg%3E%0A");
+}
+
+.timeline .event.completed .timestamp {
+  border-right: 4px solid #2A6FDB;
+}
+
+.timeline .event.completed .timestamp:before {
+  content: "";
+  right: -12px;
+  height: 20px;
+  width: 20px;
+  top: -4px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z' fill='%232A6FDB'/%3E%3C/svg%3E%0A");
+}
+
+.timeline .event:last-of-type .timestamp {
+  border-right: 4px solid transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

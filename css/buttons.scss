@@ -10,7 +10,7 @@
 
 .btn {
   font-family: $font-family-niramit-600;
-  font-size: $font-size-xs;
+  font-size: $font-size-sm;
   line-height: 14px;
   cursor: pointer;
   text-align: center;
@@ -22,7 +22,20 @@
   border: none;
   border-radius: 5px;
   color: $white-color;
+  transition: 0.3s;
   &:hover {
     background-color: #1E55BC;
+  }
+}
+
+.btn-outline-primary {
+  background-color: $white-color;
+  border: none;
+  border-radius: 5px;
+  color: $blue-color;
+  transition: 0.3s;
+  &:hover {
+    background-color: #EAF1FC!important;
+    color: $blue-color!important;
   }
 }
